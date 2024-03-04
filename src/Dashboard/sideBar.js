@@ -19,11 +19,11 @@ import { useNavigate, useLocation } from "react-router-dom";
 const drawerWidth = 240;
 
 const menuItems = [
-  { label: "Dashboard", icon: <DashboardIcon />, path: "/Home" },
-  { label: "Movies", icon: <MovieCreationIcon />, path: "/Movies" },
-  { label: "Videos", icon: <OndemandVideoIcon />, path: "/Videos" },
-  { label: "Contacts", icon: <ContactsIcon />, path: "/Contacts" },
-  {label: "Text-To-Speech", icon: <RecordVoiceOverIcon />, path: "/Text-To-Speech"}
+  { label: "Dashboard", icon: <DashboardIcon />, path: "/ContactApp-FE/Home" },
+  { label: "Movies", icon: <MovieCreationIcon />, path: "/ContactApp-FE/Movies" },
+  { label: "Videos", icon: <OndemandVideoIcon />, path: "/ContactApp-FE/Videos" },
+  { label: "Contacts", icon: <ContactsIcon />, path: "/ContactApp-FE/Contacts" },
+  {label: "Text-To-Speech", icon: <RecordVoiceOverIcon />, path: "/ContactApp-FE/Text-To-Speech"}
 ];
 
 function Sidebar() {
