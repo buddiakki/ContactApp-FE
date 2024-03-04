@@ -63,7 +63,7 @@ export default function Home() {
           }}
           hoverable
           onClick={()=>{
-            navigate('/Movies')
+            navigate(`/Movies`)
           }}
         >
           <Avatar size={60} icon={<FileTextOutlined style={{fontSize:'40px'}} />} />
