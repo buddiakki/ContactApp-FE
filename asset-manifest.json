@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/contact-app/static/css/main.6352b057.css",
-    "main.js": "/contact-app/static/js/main.a20ee93e.js",
+    "main.js": "/contact-app/static/js/main.be3ee84b.js",
     "reactPlayerYouTube.js": "/contact-app/static/js/reactPlayerYouTube.52cdde7b.chunk.js",
     "reactPlayerSoundCloud.js": "/contact-app/static/js/reactPlayerSoundCloud.1022260c.chunk.js",
     "reactPlayerVimeo.js": "/contact-app/static/js/reactPlayerVimeo.584eb6cd.chunk.js",
@@ -21,7 +21,7 @@
     "static/media/women.png": "/contact-app/static/media/women.cadc9d1be94701575b5a.png",
     "index.html": "/contact-app/index.html",
     "main.6352b057.css.map": "/contact-app/static/css/main.6352b057.css.map",
-    "main.a20ee93e.js.map": "/contact-app/static/js/main.a20ee93e.js.map",
+    "main.be3ee84b.js.map": "/contact-app/static/js/main.be3ee84b.js.map",
     "reactPlayerYouTube.52cdde7b.chunk.js.map": "/contact-app/static/js/reactPlayerYouTube.52cdde7b.chunk.js.map",
     "reactPlayerSoundCloud.1022260c.chunk.js.map": "/contact-app/static/js/reactPlayerSoundCloud.1022260c.chunk.js.map",
     "reactPlayerVimeo.584eb6cd.chunk.js.map": "/contact-app/static/js/reactPlayerVimeo.584eb6cd.chunk.js.map",
@@ -38,6 +38,6 @@
   },
   "entrypoints": [
     "static/css/main.6352b057.css",
-    "static/js/main.a20ee93e.js"
+    "static/js/main.be3ee84b.js"
   ]
 }
