@@ -63,7 +63,7 @@ export default function Home() {
           }}
           hoverable
           onClick={()=>{
-            navigate(`/ContactApp-FE/Movies`)
+            navigate(`/Movies`)
           }}
         >
           <Avatar size={60} icon={<FileTextOutlined style={{fontSize:'40px'}} />} />
@@ -77,7 +77,7 @@ export default function Home() {
           }}
           hoverable
           onClick={()=>{
-            navigate('/ContactApp-FE/Videos')
+            navigate('/Videos')
           }}
         >
           <Avatar size={60} icon={<VideoCameraOutlined style={{fontSize:'40px'}}/>} />
@@ -91,7 +91,7 @@ export default function Home() {
           }}
           hoverable
           onClick={()=>{
-            navigate('/ContactApp-FE/Contacts');
+            navigate('/Contacts');
           }}
         >
           <Avatar size={60} icon={<ContactsOutlined  style={{fontSize:'40px'}} />} />
@@ -105,7 +105,7 @@ export default function Home() {
           }}
           hoverable
           onClick={()=>{
-            navigate('/ContactApp-FE/Text-To-Speech')
+            navigate('/Text-To-Speech')
           }}
         >
           <Avatar size={60} icon={<AudioOutlined style={{fontSize:'40px'}} />} />

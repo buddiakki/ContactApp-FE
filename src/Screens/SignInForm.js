@@ -85,7 +85,7 @@ function SignInForm() {
   return (
     <div className="form-container sign-in-container">
       {contextHolder}
-      <form onSubmit={handleOnSubmit}>
+      <form >
         <h1>Sign In</h1>
         <input
           type="email"
@@ -103,7 +103,7 @@ function SignInForm() {
           onChange={handleChange}
           required 
         />
-        <button>Sign In</button>
+        <button onClick={handleOnSubmit}>Sign In</button>
       </form>
     </div>
   );

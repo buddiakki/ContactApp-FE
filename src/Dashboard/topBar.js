@@ -7,19 +7,27 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import { Typography } from 'antd';
 import axios from 'axios';
+import { useNavigate } from 'react-router-dom';
 
 const drawerWidth = 240;
-const UserName = localStorage.getItem('UserNmae');
+
 
 export default function PermanentDrawerLeft() {
+  const navigate = useNavigate();
 
     const [userImage, setUserImage] = useState('');
+    const [userName, setUserNAme] = useState('')
     const token = localStorage.getItem('accessToken')
 
     const headers = {
       Authorization: `Bearer ${token}`,
       'Content-Type': 'application/json',
     };
+
+    useEffect(()=>{
+      const UserName = localStorage.getItem('UserNmae');
+      setUserNAme(UserName)
+    })
 
     useEffect(() => {
       const fetchUserImage = async () => {
@@ -55,6 +63,8 @@ export default function PermanentDrawerLeft() {
 
   const handleLogout = () => {
     console.log('Logout clicked');
+    localStorage.clear('UserNmae','accessToken')
+   navigate('/Login')
   };
 
   const handleProfile = () => {
@@ -69,9 +79,9 @@ export default function PermanentDrawerLeft() {
     >
       <Toolbar>
         <IconButton onClick={handleMenuClick} edge="start" color="inherit" sx={{ marginLeft: 'auto',gap:'5px',marginTop:'10px' }}>
-          <Avatar src={userImage} alt={UserName ? UserName[0].toUpperCase() : ''}/>
+          <Avatar src={userImage} alt={userName ? userName[0].toUpperCase() : ''}/>
            
-         <Typography >{UserName}</Typography>
+         <Typography bg='red'>{userName}</Typography>
          
         </IconButton>
 

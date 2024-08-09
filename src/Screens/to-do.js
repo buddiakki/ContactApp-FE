@@ -45,11 +45,11 @@ export default function Todo() {
   };
 
   return (
-    <Box sx={{ display: 'flex', marginTop: '60px' }}>
+    <Box sx={{ display: 'flex', }}>
     <CssBaseline />
     <TopBar style={{ position: 'fixed', width: '100%', zIndex: 1000 }} />
     <Sidebar />
-    <div style={{ marginLeft: '30px', padding: '20px', maxWidth: '1600px', marginTop: '1100px' }}>
+    <div style={{ marginLeft: '30px', padding: '20px', maxWidth: '1600px', marginTop:'1000px' }}>
         <h1 style={{ textAlign: 'center', marginBottom: '20px' }}>Video Player</h1>
         <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(200px, 1fr))', gap: '20px' }}>
           {videos.map((video) => (
